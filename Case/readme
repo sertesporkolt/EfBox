@@ -1,16 +1,10 @@
-This directory contains the files in various formats what you need to cut and construct 
-
-the whole housing or case of your new EfBox.
-You find also in 3D formats the exploded 
-
-drawing, and the original plans on my Tinkercad site :
+This directory contains the files in various formats what you need to cut and construct the whole housing or case of your new EfBox.
+You find also in 3D formats the exploded drawing, and the original plans on my Tinkercad site :
 
 https://www.tinkercad.com/users/2kXSMoO5hyD-esef
 
 
-These are also open source of course and helps you a lot to visualize how to set the 
-
-parts together.
+These are also open source of course and helps you a lot to visualize how to set the parts together.
 
 
 In detail :
@@ -18,36 +12,16 @@ In detail :
 - .dxf files of the whole case, maybe they are useful for you.
 
 
-- .svg files contains the case parts in 2D vectorgraphics format (you can modify e.g. with 
-
-Inkscape). 
+- .svg files contains the case parts in 2D vectorgraphics format (you can modify e.g. with Inkscape). 
  
 
-- .rld files, whose useful if you have a possibility to work with one kind of Redsail 
+- .rld files, whose useful if you have a possibility to work with one kind of Redsail lasercutting machine. 
+The .rld it's own fileformat what used in Lasermate free software. 
+This files you can open without any modification in Lasermate, then "save to Udisk", it converts directly to .rd format, what the Redsail machines understand :) 
+To cut my prototype I've used a Redsail M500 cutter, but if you work with another machine, probably you need to tune the cutting speed and/or laser output power a little bit, but it is easy in Lasermate :)
 
-lasercutting machine. The .rld it's own fileformat what used in Lasermate free software. 
+- .rd files are ready to lasercutting. If you have a Redsail M500 or compatible machine, all you need to download to the USB-disk (unzipped in the root directory of course), plug into the usb port of cutter and go :)
 
-This files you can open without any modification in Lasermate, then "save to Udisk", it 
-
-converts directly to .rd format, what the Redsail machines understand :) 
-To cut my 
-
-prototype I've used a Redsail M500 cutter, but if you work with another machine, probably 
-
-you need to tune the cutting speed and/or laser output power a little bit, but it is easy in 
-
-Lasermate :)
-
-- .rd files are ready to lasercutting. If you have a Redsail M500 or compatible machine, all 
-
-you need to download to the USB-disk (unzipped in the root directory of course), plug into 
-
-the usb port of cutter and go :)
-
-- .obj files of full assembled EfBox, exploded schematic, an assembly help and the gel 
-
-tray assembled to gel casting. 
-This 3D format very common and should the most 3D 
-
-viewer software to understand and open. 
+- .obj files of full assembled EfBox, exploded schematic as an assembly help and the gel tray assembled to gel casting. 
+This 3D format very common and should the most 3D viewer software to understand and open. 
 Exported directly from Tinkercad.
