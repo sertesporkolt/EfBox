@@ -77,9 +77,9 @@ int reedRead=HIGH;
 unsigned long t = 0;
 
 
-const char* ssid="MQTT_Gateway_001";
-const char* pass="279123456";
-String apiKey="4I875JB9GBX51R3B";
+const char* ssid="your_WiFi_SSID";
+const char* pass="your_WiFi_password";
+String apiKey="your_thingspeak_Write_API_Key";
 const char* server="api.thingspeak.com";
 
 WiFiClient client;
